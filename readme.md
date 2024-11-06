@@ -25,7 +25,7 @@ ComfyUI-OmniGenX 是一个 ComfyUI 的自定义节点，集成了 OmniGen 统一
 - CUDA 支持的 GPU (建议至少 8GB 显存)
 - ComfyUI 最新版本
 
-> 注意：如果显存不足，可以在使用时设置 `offload_model=True` 和降低 `max_input_image_size` 来优化内存使用。
+> 注意：如果显存不足，可以在使用时设置 `cpu_offload=True` 和降低 `max_input_image_size` 来优化内存使用。
 
 ### 安装步骤
 
