@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-omnigenx"
+description = "OmniGen Unified Image Generation Model Integration."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "datasets", "accelerate", "peft", "diffusers", "timm"]
+
+[project.urls]
+Repository = "https://github.com/CY-CHENYUE/ComfyUI-OmniGenX"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-OmniGenX"
+Icon = ""
